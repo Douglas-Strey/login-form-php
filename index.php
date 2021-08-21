@@ -20,7 +20,7 @@ session_start();
             unset($_SESSION['msgError']);
         endif;
     ?>
-    <form action="valida.php" method="post">
+    <form action="auth/valida.php" method="post">
         <label for="username">Usuário</label>
         <input type="text" name="userName" placeholder="Digite seu usuário"><br><br>
         <label for="userPassword">Senha</label>
