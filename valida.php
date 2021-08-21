@@ -1,6 +1,8 @@
 <?php
 session_start();
 
+include_once ("conexao.php");
+
 $btnLogin = filter_input(INPUT_POST, 'btnLogin', FILTER_SANITIZE_STRING);
 
 if ($btnLogin) :
